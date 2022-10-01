@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
 
-function App() {
+const App = () => {
+
+  const [count, setCount] = useState(0);
+
+  const onClick = () => {
+    setCount(count + 1)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+    <div className="h-screen w-screen">
+
+      <div className="h-[20%] bg-[#06283D] flex justify-center items-center">
+
+        <h1 className="text-4xl text-[#DFF6FF] ">Slogan Counter</h1>
+
+      </div>
+
+      <button className="h-[80%] w-full bg-[#256D85]" onClick={() => onClick()}><h1 className="text-[20rem] text-[#DFF6FF]">{count}</h1></button>
+
     </div>
   );
 }
