@@ -13,6 +13,7 @@ View live DEMO <a href="https://slogan.akhilkumar.ga/">here</a>
 
 <h3>Notes</h3>
 
+* Designed for mobile users only. [Reduce browser size to view the app :D ]
 * Supports vibration on Android devices
 * Found any bugs or have suggestions? Feel free to reach me <a href="https://akhilkumar.ga/">here</a>
 
