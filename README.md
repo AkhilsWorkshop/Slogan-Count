@@ -1,6 +1,6 @@
 <h1>Slogan-Count</h1>
 
-View live DEMO <a href="https://slogan.akhilkumar.ga/">here</a>
+View live DEMO <a href="https://slogan.akhilkumar.dev/">here</a>
 
 <h3>About</h3>
 
